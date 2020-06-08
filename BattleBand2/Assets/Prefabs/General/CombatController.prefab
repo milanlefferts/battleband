@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1023972629721910}
+  m_IsPrefabAsset: 1
+--- !u!1 &1023972629721910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4640940250899322}
+  - component: {fileID: 114202142629857790}
+  - component: {fileID: 114999391339002154}
+  - component: {fileID: 114724930796905350}
+  - component: {fileID: 82776705652379250}
+  - component: {fileID: 114604806021854260}
+  - component: {fileID: 114378495514017864}
+  m_Layer: 0
+  m_Name: CombatController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4640940250899322
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023972629721910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82776705652379250
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023972629721910}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114202142629857790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023972629721910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6b2ae5222318c342b5651dad02f791b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  power: 0
+  powerMax: 0
+  powerCharge: 0
+  enemyHealth: 0
+  gameEnded: 0
+  combat: 0
+  timerDuration: 0
+  timerBeats: 0
+  playerTurn: 0
+  enemyDeathCounter: 0
+  friendlyDeathCounter: 0
+  currentCharacter: {fileID: 0}
+  attacker: {fileID: 0}
+  friendlyCharacters: []
+  enemyCharacters: []
+  targetingEnemy: 0
+  currentAbility:
+    name: 
+    type: 0
+    cost: 0
+    targets: 
+    visualEffect: {fileID: 0}
+    icon: {fileID: 0}
+    sound: {fileID: 0}
+    hasAttackMode: 0
+  started: 0
+  tutorial: 0
+  paused: 0
+  beat: 0
+  conductor: {fileID: 0}
+--- !u!114 &114378495514017864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023972629721910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724db6a73ae8e7541ac717cf379cdb56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreNumber: 0
+  scoreLevel: 0
+--- !u!114 &114604806021854260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023972629721910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dccd7a13980dc8344a0e7d034f388716, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rooftop01:
+  - {fileID: 0}
+  rooftop02:
+  - {fileID: 0}
+  - {fileID: 0}
+  rooftop03:
+  - {fileID: 0}
+  rooftop04:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &114724930796905350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023972629721910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf8425d59ee8a2b4da09f7050ae6ae8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rooftopIntro:
+  - {fileID: 8300000, guid: d887e40ce1147c442a04fce6194fbc7c, type: 3}
+  - {fileID: 8300000, guid: 27529518288184f4dbc4c6d09847d571, type: 3}
+  - {fileID: 8300000, guid: 31711477f7b571b478400461f178bbf5, type: 3}
+  - {fileID: 8300000, guid: 840a305552219f9419e71bcec505ab47, type: 3}
+  - {fileID: 8300000, guid: 9a00b951e76131046a46ef6c05833c19, type: 3}
+  - {fileID: 8300000, guid: 70be63903bdb0a14ab15b2d73ee36380, type: 3}
+  - {fileID: 8300000, guid: 1817be7d0401ce64f83f7685387ca734, type: 3}
+  - {fileID: 8300000, guid: 6bbf1c02846d0394391f525e6173714f, type: 3}
+  - {fileID: 8300000, guid: 48e2f4492aaac244a98dfa4ebc9173dd, type: 3}
+  - {fileID: 8300000, guid: 71916146dfbc94243b16742e1781cbcf, type: 3}
+  - {fileID: 8300000, guid: 41052ebe1fc67134c923911162c52c83, type: 3}
+  - {fileID: 8300000, guid: f5c16b72be1fdfb48bba96c552a05cc3, type: 3}
+  - {fileID: 8300000, guid: 13efdb0b52d967d49b0ecd1a28aea5f1, type: 3}
+  rooftopOuttro:
+  - {fileID: 8300000, guid: 8c3c252fdee85dd459cff04fa4277c67, type: 3}
+  - {fileID: 8300000, guid: ed85a25e27165f14e9905b2a79f15d96, type: 3}
+  - {fileID: 8300000, guid: 630a0bab49107fe4985951201faeb6b3, type: 3}
+  - {fileID: 8300000, guid: dfc2daf819c0b5d45b8faae227edfaeb, type: 3}
+  - {fileID: 8300000, guid: 1de691b77ee21b340ab6d8a4bc2ced8e, type: 3}
+  - {fileID: 8300000, guid: 480ea847cdc423848a99b409d2ab3d3b, type: 3}
+  - {fileID: 8300000, guid: 5ce99e3bdee9eff4d9b5de33a7b362db, type: 3}
+  - {fileID: 8300000, guid: d30a8dae2ef4b3049b7b7481df7481d4, type: 3}
+  - {fileID: 8300000, guid: b2684f36d89329646abe655496bcd23e, type: 3}
+  - {fileID: 8300000, guid: e4f1fc7d11da98f489402d652c0912b3, type: 3}
+  - {fileID: 8300000, guid: e93f60c60c7a30247a397c23931901ab, type: 3}
+  - {fileID: 8300000, guid: 81f91fe3d0863f7449427c703766b7f5, type: 3}
+  tutorial0:
+  - {fileID: 8300000, guid: 38dcd90d30f19ee4f956fc8886e18152, type: 3}
+  - {fileID: 8300000, guid: d9607104bff8a4f42ae0b8a68764895f, type: 3}
+  tutorial1:
+  - {fileID: 8300000, guid: 4c687f01942f3194d8d4f59dd11e54d9, type: 3}
+  - {fileID: 8300000, guid: c7546d40799e8cd41b811b11ee618294, type: 3}
+  tutorial2:
+  - {fileID: 8300000, guid: 5a95816af4db0f54ebb89e785d70e145, type: 3}
+  - {fileID: 8300000, guid: af93d0000009bc749ad5b6c79ec201c1, type: 3}
+  - {fileID: 8300000, guid: 99147efbd67e3ea4196a518c7753fdc7, type: 3}
+  - {fileID: 8300000, guid: d9ac93a8a998d9c4198ce95761bdd68c, type: 3}
+  tutorial3:
+  - {fileID: 8300000, guid: ab67e3c7b15811c4e97932cb7403906a, type: 3}
+  tutorial4:
+  - {fileID: 8300000, guid: 71ae4339188f7884090dcbc2dfb65f74, type: 3}
+  - {fileID: 8300000, guid: 2edec257b24a85f49b9c7d58ba03630d, type: 3}
+  tutorial5:
+  - {fileID: 8300000, guid: be3138170df7d2e48b784c18dc34ed5b, type: 3}
+  - {fileID: 8300000, guid: 12dd00cdb26aedd45a5dae67c0cdf148, type: 3}
+  tutorial6:
+  - {fileID: 8300000, guid: 3a821c1a5271f7b459dc06cf5960df54, type: 3}
+  tutorial7:
+  - {fileID: 8300000, guid: cc03cb1edcef8d046a8c3a261b99b9fc, type: 3}
+  - {fileID: 8300000, guid: 082389cb14e152a4abf03497a254f0d1, type: 3}
+  tutorial8:
+  - {fileID: 8300000, guid: 798090d00a18b9c4bae1e6ebf50eb182, type: 3}
+  - {fileID: 8300000, guid: d0ea7ad1c5b944a4b8accbe5f0054b65, type: 3}
+  tutorial9:
+  - {fileID: 8300000, guid: a6047a9cd73dd0b4fb921fba8a4f5c89, type: 3}
+  - {fileID: 8300000, guid: 1ae13804c4b082d49805b8e886ebe684, type: 3}
+  - {fileID: 8300000, guid: 099f02a209daf7145831e2799706181c, type: 3}
+--- !u!114 &114999391339002154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023972629721910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c0e5e58408ee5345baaf09547b323cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 8a73f018db557c3458e2768967cf2646
+timeCreated: 1521225598
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Building
+    100002: Cube
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cube.004
+    100010: Cube.005
+    100012: Cube.008
+    100014: Cylinder.001
+    100016: Fence
+    100018: Fence.001
+    100020: Fence.002
+    100022: Fence.003
+    100024: FloorTiles
+    100026: Tile.001
+    100028: Tile.002
+    100030: Tile.003
+    100032: Tile.004
+    100034: Tile.005
+    100036: Tile.006
+    100038: Tile.007
+    100040: Tile.008
+    100042: Tile.009
+    100044: Tile.010
+    100046: Tile.011
+    100048: Tile.012
+    100050: Tile.013
+    100052: Tile.014
+    100054: Tile.015
+    100056: //RootNode
+    400000: Building
+    400002: Cube
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cube.004
+    400010: Cube.005
+    400012: Cube.008
+    400014: Cylinder.001
+    400016: Fence
+    400018: Fence.001
+    400020: Fence.002
+    400022: Fence.003
+    400024: FloorTiles
+    400026: Tile.001
+    400028: Tile.002
+    400030: Tile.003
+    400032: Tile.004
+    400034: Tile.005
+    400036: Tile.006
+    400038: Tile.007
+    400040: Tile.008
+    400042: Tile.009
+    400044: Tile.010
+    400046: Tile.011
+    400048: Tile.012
+    400050: Tile.013
+    400052: Tile.014
+    400054: Tile.015
+    400056: //RootNode
+    2100000: No Name
+    2100002: Material
+    2100004: Material.001
+    2300000: Building
+    2300002: Cube
+    2300004: Cube.002
+    2300006: Cube.003
+    2300008: Cube.004
+    2300010: Cube.005
+    2300012: Cube.008
+    2300014: Cylinder.001
+    2300016: Fence
+    2300018: Fence.001
+    2300020: Fence.002
+    2300022: Fence.003
+    2300024: FloorTiles
+    2300026: Tile.001
+    2300028: Tile.002
+    2300030: Tile.003
+    2300032: Tile.004
+    2300034: Tile.005
+    2300036: Tile.006
+    2300038: Tile.007
+    2300040: Tile.008
+    2300042: Tile.009
+    2300044: Tile.010
+    2300046: Tile.011
+    2300048: Tile.012
+    2300050: Tile.013
+    2300052: Tile.014
+    2300054: Tile.015
+    3300000: Building
+    3300002: Cube
+    3300004: Cube.002
+    3300006: Cube.003
+    3300008: Cube.004
+    3300010: Cube.005
+    3300012: Cube.008
+    3300014: Cylinder.001
+    3300016: Fence
+    3300018: Fence.001
+    3300020: Fence.002
+    3300022: Fence.003
+    3300024: FloorTiles
+    3300026: Tile.001
+    3300028: Tile.002
+    3300030: Tile.003
+    3300032: Tile.004
+    3300034: Tile.005
+    3300036: Tile.006
+    3300038: Tile.007
+    3300040: Tile.008
+    3300042: Tile.009
+    3300044: Tile.010
+    3300046: Tile.011
+    3300048: Tile.012
+    3300050: Tile.013
+    3300052: Tile.014
+    3300054: Tile.015
+    4300000: Fence.003
+    4300002: Cube.008
+    4300004: Fence.002
+    4300006: Cube.005
+    4300008: Fence.001
+    4300010: Cube.004
+    4300012: Fence
+    4300014: Cube.002
+    4300016: Cube.003
+    4300018: Cylinder.001
+    4300020: Cube
+    4300022: Building
+    4300024: FloorTiles
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
